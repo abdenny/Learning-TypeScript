@@ -119,15 +119,15 @@
  * Sometimes we have a type that can be one of several things
  */
 
-// export interface HasPhoneNumber {
-//   name: string;
-//   phone: number;
-// }
+export interface HasPhoneNumber {
+  name: string;
+  phone: number;
+}
 
-// export interface HasEmail {
-//   name: string;
-//   email: string;
-// }
+export interface HasEmail {
+  name: string;
+  email: string;
+}
 
 // let contactInfo: HasEmail | HasPhoneNumber =
 //   Math.random() > 0.5

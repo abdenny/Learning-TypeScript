@@ -17,6 +17,7 @@
 - Moves runtime errors to compile time
 
 - Provides consumers with a great DX
+  <br>
 
 - TSC to compile ts to ES3 JavaScript (the kind that runs in IE6)
 - We can also compile with a flag that doesnt dumb it down so much. ex: tsc index.ts --target ES2015
@@ -24,3 +25,5 @@
 - Lots of other flags to explore later.
 
 - tsconfig.jso-
+
+TS uses wide and narrow to describe specifics. Narrower values can always fit through a wider hole, while it's not easy to that in the opposite direction.
