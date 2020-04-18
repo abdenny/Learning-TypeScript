@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    ///how are we compiling it
+    "module": "commonjs",
+    "target": "ES2017",
+    "outDir": "lib" //output direct, all compiled js files will go to these folder. This makes it east to serve only js files to github/npm so people that cant read TS can still read the JS.
+  },
+  "include": ["src"] //what are we compiling
+}
